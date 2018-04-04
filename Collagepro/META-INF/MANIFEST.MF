@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Collagepro
+Bundle-SymbolicName: Collagepro
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: Collagepro.jar,
+ jar file/mysql.jar
+Export-Package: com,
+ com.mysql.jdbc,
+ com.mysql.jdbc.jdbc2.optional,
+ com.mysql.jdbc.util,
+ org.gjt.mm.mysql
