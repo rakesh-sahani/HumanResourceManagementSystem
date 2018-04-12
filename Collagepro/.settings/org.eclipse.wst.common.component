@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Collagepro">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/img"/>
+        <dependent-module archiveName="mysql.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Users/Savita Devi/workspace/Collagepro/jar file/mysql.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.0-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Swati grover/workspace/Collagepro/jar file/mysql-connector-java-5.1.0-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Collagepro"/>
+        <property name="java-output-path" value="/Collagepro/build/classes"/>
+    </wb-module>
+</project-modules>

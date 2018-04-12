@@ -10,3 +10,5 @@ Export-Package: com,
  com.mysql.jdbc.jdbc2.optional,
  com.mysql.jdbc.util,
  org.gjt.mm.mysql
+Import-Package: javax.servlet,
+ javax.servlet.http;version="2.5.0"
